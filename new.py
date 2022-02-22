@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 
-def login(username, password):
+def view_stories(username, password):
     driver = webdriver.Firefox()
     driver.implicitly_wait(5)
     driver.get("https://instagram.com/")
@@ -55,4 +55,5 @@ def login(username, password):
     unixTimeStamp = time.time()
     driver.quit()
     print(unixTimeStamp, "\nNo issues encountered.")
-login("username", "password")
+    
+view_stories("username", "password")
