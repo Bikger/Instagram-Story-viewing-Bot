@@ -1,5 +1,5 @@
 # Instagram-Story-viewing-Bot
-Basic Instagram story-viewing bot, built using Selenium, used to automate story viewing.
+Basic Instagram story-viewing bot, built using Selenium and used to automate story viewing.
 
 When ran, the bot types in the user-provided username and password, closes notifications and efficiently loops through stories.
 
