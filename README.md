@@ -12,7 +12,7 @@ pip install selenium
 pip install time
 ```
 
-Type in username and password as function parameters at function call.
+After that, you should type in your username and password as function parameters at function call on line 59, it should work.
 
 # Important note
 
