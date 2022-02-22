@@ -15,6 +15,6 @@ pip install time
 
 Type in username and password as function parameters at function call.
 
-# Disclaimer
+# Important note
 
 Built for Croatian version of Instagram.
