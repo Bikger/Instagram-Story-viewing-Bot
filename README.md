@@ -6,7 +6,6 @@ When ran, the bot types in the user-provided username and password, closes notif
 # How to Use
 All the code is provided in the 'new.py' file.
 You should be able to run the code after specifying the path to geckodriver, installing Firefox as well as the required libraries:
-The required Python libraries are:
 
 ```
 pip install selenium
