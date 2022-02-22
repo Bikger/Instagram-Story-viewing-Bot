@@ -55,4 +55,4 @@ def login(username, password):
     unixTimeStamp = time.time()
     driver.quit()
     print(unixTimeStamp, "\nNo issues encountered.")
-login("turbokerq", "k20092006m")
+login("username", "password")
