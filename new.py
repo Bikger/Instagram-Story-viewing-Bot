@@ -97,4 +97,4 @@ class InstaBot:
 
 instance = InstaBot()
 instance.login(username, password)
-instance.cycle_stories()
+instance.cycle_stories() 
