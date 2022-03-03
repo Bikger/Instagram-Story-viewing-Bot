@@ -31,7 +31,6 @@ class InstaBot:
                 password_input = self.driver.find_element(By.CSS_SELECTOR, "input[name='password']")
                 username_input.send_keys(username)
                 password_input.send_keys(password)
-                cookie = self.driver.get_cookies()
 
                 login_button = WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[@type='submit']")))
                 login_button.click()
@@ -39,7 +38,8 @@ class InstaBot:
                 not_now_button.click()
                 notifications_button = WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable((By.XPATH, '//button[text()="Ne sada"]')))
                 notifications_button.click()
-
+                
+                cookie = self.driver.get_cookies()
                 with open("Cookies/ig.json", "w") as file:
                     dump(cookie, file)
                 print("Cookies saved!")
@@ -64,8 +64,7 @@ class InstaBot:
                     password_input = self.driver.find_element(By.CSS_SELECTOR, "input[name='password']")
                     username_input.send_keys(username)
                     password_input.send_keys(password)
-                    cookie = self.driver.get_cookies()
-
+                    
                     login_button = WebDriverWait(self.driver, 20).until(
                         EC.element_to_be_clickable((By.XPATH, "//button[@type='submit']")))
                     login_button.click()
