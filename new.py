@@ -1,8 +1,3 @@
-import ssl
-import urllib
-from datetime import datetime
-import nasapy
-import os
 from json import dump, load
 from selenium import webdriver
 from time import sleep
